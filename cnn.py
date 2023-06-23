@@ -85,3 +85,4 @@ for i in range(len(preds)):
     pred.append(list(preds[i]).index(max(preds[i])))
     
 print(f"Accuracy: {accuracy_score(y_test, pred)*100}%")
+print("__________")
